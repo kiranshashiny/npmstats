@@ -27,3 +27,7 @@ So, I worked my way from getting the list of all Databases ( i.e registry, _repl
     server.allDbs( function (err, response) {
 
 The APIs are well documented in [API](http://www.dbarnes.info/node-couchdb-api/#server)
+
+To run this code, login to the server where the NPM Registry is installed and execute 'node couch.js'
+
+If you are borrowing the code - you have to change the database names appropriately and run to see the contents of the database.
