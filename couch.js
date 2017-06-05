@@ -1,4 +1,7 @@
-#APIs here were used from http://www.dbarnes.info/node-couchdb-api/#server
+#################################################################################
+#
+#
+# APIs here were used from http://www.dbarnes.info/node-couchdb-api/#server
 #
 # This code can be run where the NPME is installed.
 # This queries the couch db and lists the contents of the database.
@@ -10,6 +13,7 @@
 # _users, _registry databases.
 #
 #
+#################################################################################
 
 var couchdb = require("couchdb-api");
 
